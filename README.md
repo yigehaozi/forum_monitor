@@ -73,7 +73,7 @@
 
 通过监控网站的 sitemap，`Forum Monitor` 自动检测新帖并发送通知，支持多种自定义设置和管理功能，适合需要实时获取论坛更新的用户。
 
-### 本项目基于WeChatFerry
+## 本项目基于WeChatFerry
 * 本项目基于 WeChatFerry 进行封装开发，建议了解一下 WeChatFerry 。
 
 |[📖 Python 文档](https://wechatferry.readthedocs.io/)|[📺 Python 视频教程](https://mp.weixin.qq.com/s/APdjGyZ2hllXxyG_sNCfXQ)|[🙋 FAQ](https://mp.weixin.qq.com/s/YvgFFhF6D-79kXDzRqtg6w)|
@@ -81,7 +81,7 @@
 
 * 可参考学习案例：[🤖WeChatRobot](https://github.com/lich0821/WeChatRobot)
 
-### 本项目基于FastRobotForWechat
+## 本项目基于FastRobotForWechat
 
 ### FastRobotForWechat
 
