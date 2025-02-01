@@ -69,3 +69,44 @@
 ## 使用说明
 
 通过监控网站的 sitemap，`Forum Monitor` 自动检测新帖并发送通知，支持多种自定义设置和管理功能，适合需要实时获取论坛更新的用户。
+
+
+## 进阶资料
+* 本项目基于 WeChatFerry 进行封装开发，建议了解一下 WeChatFerry 。
+
+|[📖 Python 文档](https://wechatferry.readthedocs.io/)|[📺 Python 视频教程](https://mp.weixin.qq.com/s/APdjGyZ2hllXxyG_sNCfXQ)|[🙋 FAQ](https://mp.weixin.qq.com/s/YvgFFhF6D-79kXDzRqtg6w)|
+|:-:|:-:|:-:|
+
+* 可参考学习案例：[🤖WeChatRobot](https://github.com/lich0821/WeChatRobot)
+
+## 项目结构
+
+```sh
+WeChatFerry
+├── LICENSE                 # LICENSE
+├── README.md               # 说明
+├── robot.py                # 运行入口
+└── plugins                 # 插件目录
+```
+## FastRobotForWechat
+
+1. 一个快速开发微信机器人的框架。主打Fast，3分钟就玩明白，2分钟安装部署环境，1分钟跑通上手。<br/>
+2. 内置了Demo插件案例，开发一个微信机器人功能只需要3分钟，足够的Fast。<br/>
+3. 内置了供开发者使用的调试插件（Command_run），可以快速的调试学习wcf框架，方便获取机器人的数据和框架数据。
+
+<details><summary><font color="red" size="12">免责声明【必读】</font></summary>
+
+本工具仅供学习和技术研究使用，不得用于任何商业或非法行为，否则后果自负。
+
+本工具的作者不对本工具的安全性、完整性、可靠性、有效性、正确性或适用性做任何明示或暗示的保证，也不对本工具的使用或滥用造成的任何直接或间接的损失、责任、索赔、要求或诉讼承担任何责任。
+
+本工具的作者保留随时修改、更新、删除或终止本工具的权利，无需事先通知或承担任何义务。
+
+本工具的使用者应遵守相关法律法规，尊重微信的版权和隐私，不得侵犯微信或其他第三方的合法权益，不得从事任何违法或不道德的行为。
+
+本工具的使用者在下载、安装、运行或使用本工具时，即表示已阅读并同意本免责声明。如有异议，请立即停止使用本工具，并删除所有相关文件。
+
+</details>
+
+## 致谢
+1. 本项目基于<strong>[WeChatFerry🤖](https://github.com/lich0821/WeChatFerry)</strong>进行封装，在此对<strong>WeChatFerry</strong>所有贡献人员由衷的表示感谢！
