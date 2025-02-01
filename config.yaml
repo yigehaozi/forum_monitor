@@ -1,0 +1,25 @@
+name: Forum_monitor
+description: 监控论坛新帖子并推送通知；（默认适配wordpress/zibll主题，如需其他系列请根据案例自行修改）
+wx: 6908506
+mail: 6@6.ke
+status: true
+version: 1.1
+
+# 监控配置
+sitemap_url: "xml地图url"
+
+# HTML选择器配置
+selectors:
+  title: "h1.entry-title"  # 标题选择器
+  author: "span.author"    # 作者选择器
+
+# 推送目标配置
+notify_groups:
+- "12345678@chatroom"  # 需要推送通知的群ID
+
+notify_users:
+- "wxid_3yjru3hxba0q22"  # 需要推送通知的用户ID
+
+# 管理员配置
+manager_wxid:
+- "wxid_3yjru3hxba0q22"  # 可以执行命令的管理员ID 
