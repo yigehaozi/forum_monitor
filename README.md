@@ -1,6 +1,7 @@
 # Forum Monitor 插件
 
 `Forum Monitor` 是一个用于监控 WordPress 网站新帖的插件，能够在发现新帖时推送通知。
+
 <img width="345" alt="image" src="https://github.com/user-attachments/assets/733e5aeb-9d43-4ee9-9545-c6432857ccd5" />
 
 
