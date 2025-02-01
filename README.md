@@ -66,12 +66,11 @@
 - **TS历史天数 <天数>**: 设置保留天数。
 - **TS历史立即清理**: 立即清理过期记录。
 
-## 使用说明
+### 使用说明
 
 通过监控网站的 sitemap，`Forum Monitor` 自动检测新帖并发送通知，支持多种自定义设置和管理功能，适合需要实时获取论坛更新的用户。
 
-
-## 进阶资料
+### 本项目基于WeChatFerry
 * 本项目基于 WeChatFerry 进行封装开发，建议了解一下 WeChatFerry 。
 
 |[📖 Python 文档](https://wechatferry.readthedocs.io/)|[📺 Python 视频教程](https://mp.weixin.qq.com/s/APdjGyZ2hllXxyG_sNCfXQ)|[🙋 FAQ](https://mp.weixin.qq.com/s/YvgFFhF6D-79kXDzRqtg6w)|
@@ -79,16 +78,9 @@
 
 * 可参考学习案例：[🤖WeChatRobot](https://github.com/lich0821/WeChatRobot)
 
-## 项目结构
+### 本项目基于FastRobotForWechat
 
-```sh
-WeChatFerry
-├── LICENSE                 # LICENSE
-├── README.md               # 说明
-├── robot.py                # 运行入口
-└── plugins                 # 插件目录
-```
-## FastRobotForWechat
+### FastRobotForWechat
 
 1. 一个快速开发微信机器人的框架。主打Fast，3分钟就玩明白，2分钟安装部署环境，1分钟跑通上手。<br/>
 2. 内置了Demo插件案例，开发一个微信机器人功能只需要3分钟，足够的Fast。<br/>
@@ -108,5 +100,7 @@ WeChatFerry
 
 </details>
 
+
 ## 致谢
 1. 本项目基于<strong>[WeChatFerry🤖](https://github.com/lich0821/WeChatFerry)</strong>进行封装，在此对<strong>WeChatFerry</strong>所有贡献人员由衷的表示感谢！
+2. 本项目基于<strong>[FastRobotForWechat🤖](https://github.com/H5oSir/FastRobotForWechat)</strong>进行封装，在此对<strong>FastRobotForWechat</strong>所有贡献人员由衷的表示感谢！
